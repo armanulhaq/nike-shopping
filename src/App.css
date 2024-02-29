@@ -26,12 +26,13 @@ nav ul {
   display: flex;
   gap: 50px;
   list-style: none;
+  font-weight: 500;
 }
 
 .login-button {
   background-color: #d01c28;
   height: 30px;
-  width: 50px;
+  width: 60px;
   border: none;
   border-radius: 2px;
   color: white;
@@ -50,6 +51,10 @@ nav ul {
   font-weight: 600;
 }
 
+.main-text-heading {
+  margin-bottom: 20px;
+}
+
 .main-container {
   height: calc(100vh - 72px);
   width: 100vw;
@@ -60,6 +65,10 @@ nav ul {
 
 .main-image-container {
   width: 50%;
+}
+
+.main-text-subheading {
+  margin-bottom: 20px;
 }
 
 .shoe-img {
@@ -75,7 +84,7 @@ nav ul {
 
 .shop-container {
   display: flex;
-
+  margin-bottom: 20px;
   gap: 20px;
 }
 
@@ -99,4 +108,9 @@ nav ul {
 .shopping-link-container {
   display: flex;
   gap: 10px;
+}
+
+.sub-sub-heading {
+  font-size: 12px;
+  margin-bottom: 10px;
 }
